@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-origin: padding-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  html {
+    font-size: 16px;
+    //background-color: #636363;
+  }
+  
+  .calculator {
+    
+  
+    top: 50%;
+    left: 50%;
+  
+    
+    
+  }
+  
+   #right{
+    margin:0;
+    display: none;
+    
+  } 
+  .calc-container {
+    background-color: #1d1d1d;
+  
+    width: 450px;
+    height: auto;
+  
+    border-radius: 30px 30px 30px 30px;
+   
+  }
+  .history {
+    width: 450px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: cadetblue;
+    
+    font-size: 1.9em;
+    font-weight: bold;
+   
+  }
+  .output {
+    width: 100%;
+  }
+  
+  .operation {
+    width: 450px;
+    height: 70px;
+  
+    color: #878787;
+  
+    font-size: 1.9em;
+    font-weight: bold;
+  
+    position: relative;
+    overflow: hidden;
+  }
+  .operation .value {
+    position: absolute;
+  
+    bottom: 5px;
+    right: 10px;
+  
+    white-space: nowrap;
+    overflow: hidden;
+    
+  }
+  
+  .result {
+    width: 450px;
+    height: 140px;
+  
+    color: #fff;
+  
+    font-size: 2.6em;
+    font-weight: bold;
+  
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .result .value {
+    position: absolute;
+  
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+  
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .input {
+    background-color: rgb(15, 15, 15);
+  
+    border-radius: 0 0 25px 25px;
+    border: 1px solid #1d1d1d;
+    height: 600px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .row button {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+    color: #fff;
+    border: none;
+    //border-radius: 50%;
+    background-color: transparent;
+  
+    margin: 5px;
+  
+    cursor: pointer;
+  }
+  
+  .row button:hover {
+    font-weight: bold;
+  }
+  
+  .row #calculate {
+    color: #fff;
+    background-color: #46e0bc;
+    //width: 70px;
+    border-radius: 50px;
+  }
+  .row #delete {
+    color: #fff;
+    background-color: #fa2e0a;
+  }
+  
+  #division,
+  #multiplication,
+  #subtraction,
+  #addition {
+    color: #ecf3f1;
+    background-color: #454545;
+  }
+  
+  .input button span {
+    font-size: 0.6em;
+    position: absolute;
+  }
+  
+  
+  .row #zero,
+  #one,
+  #two,
+  #three,
+  #four,
+  #five,
+  #six,
+  #seven,
+  #eight,
+  #nine
+   {
+    background-color: #878787;
+    
+  }
+  #ANS {
+    background-color: rgb(109, 52, 143);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  #history{
+    background-color: chartreuse;
+  }
+  .active-angle {
+    background-color: #1d1d1d !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+  }
+  
